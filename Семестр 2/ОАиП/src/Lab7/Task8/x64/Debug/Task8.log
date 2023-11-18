@@ -1,0 +1,8 @@
+﻿  Task8.cpp
+C:\Users\HP\Desktop\CPP\Lab7\Task8\Task8.cpp(8,40): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab7\Task8\Task8.cpp(11,40): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab7\Task8\Task8.cpp(21,32): warning C4244: аргумент: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab7\Task8\Task8.cpp(23,39): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab7\Task8\Task8.cpp(24,39): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab7\Task8\Task8.cpp(25,39): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Task8.vcxproj -> C:\Users\HP\Desktop\CPP\Lab7\x64\Debug\Task8.exe

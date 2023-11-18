@@ -1,0 +1,4 @@
+﻿  Task7.cpp
+C:\Users\HP\Desktop\CPP\Lab7\Task7\Task7.cpp(6,19): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab7\Task7\Task7.cpp(105,17): warning C4101: temp: неиспользованная локальная переменная
+  Task7.vcxproj -> C:\Users\HP\Desktop\CPP\Lab7\x64\Debug\Task7.exe

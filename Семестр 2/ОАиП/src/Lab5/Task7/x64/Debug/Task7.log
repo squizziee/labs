@@ -1,0 +1,4 @@
+﻿  Task7.cpp
+C:\Users\HP\Desktop\CPP\Lab5\Task7\Task7.cpp(26,44): warning C4244: аргумент: преобразование "unsigned __int64" в "long double", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab5\Task7\Task7.cpp(26,33): warning C4244: инициализация: преобразование "long double" в "unsigned __int64", возможна потеря данных
+  Task7.vcxproj -> C:\Users\HP\Desktop\CPP\Lab5\x64\Debug\Task7.exe

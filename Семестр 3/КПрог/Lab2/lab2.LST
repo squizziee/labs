@@ -1,0 +1,34 @@
+  ADDR B1 B2 B3 B4 C:\Users\HP\Desktop\Assembler\lab2.asm           PAGE       1
+
+                           ORG $8000
+                   METHOD_1:
+  8000 86 0A               LDAA #%00001010
+  8002 97 10               STAA $10
+  8004 CE 00 10            LDX #$10
+  8007 1C 00 6A            BSET 0,X,#%01101010
+                   METHOD_2:
+  800A 86 0A               LDAA #%00001010
+  800C 97 10               STAA $10
+  800E C6 6A               LDAB #%01101010
+  8010 D7 10               STAB $10
+                   METHOD_3:
+  8012 86 0A               LDAA #%00001010
+  8014 97 10               STAA $10
+  8016 0D                  SEC
+  8017 89 00               ADCA #$00
+  8019 97 10               STAA $10
+  801B 49                  ROLA
+  801C 0D                  SEC
+  801D 89 00               ADCA #$00
+  801F 97 10               STAA $10
+  8021 79 00 10            ROL $10
+  8024 79 00 10            ROL $10
+  8027 79 00 10            ROL $10
+  802A 79 00 10            ROL $10
+  802D 79 00 10            ROL $10
+
+  Symbol Table 
+
+  METHOD_1           8000
+  METHOD_2           800A
+  METHOD_3           8012

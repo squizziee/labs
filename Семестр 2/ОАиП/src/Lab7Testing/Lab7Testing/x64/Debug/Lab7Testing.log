@@ -1,0 +1,7 @@
+﻿  test.cpp
+C:\Users\HP\Desktop\CPP\Lab7Testing\Lab7Testing\test.cpp(91,19): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab7Testing\Lab7Testing\test.cpp(166,40): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab7Testing\Lab7Testing\test.cpp(169,40): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab7Testing\Lab7Testing\test.cpp(179,28): warning C4244: аргумент: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab7Testing\Lab7Testing\test.cpp(159): warning C4715: runTask7: значение возвращается не при всех путях выполнения
+  Lab7Testing.vcxproj -> C:\Users\HP\Desktop\CPP\Lab7Testing\x64\Debug\Lab7Testing.exe

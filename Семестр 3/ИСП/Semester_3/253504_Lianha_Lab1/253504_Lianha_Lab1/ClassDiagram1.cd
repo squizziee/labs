@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_253504_Lianha_Lab1.Collections.MyCustomCollection&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="_253504_Lianha_Lab1.Collections.MyCustomCollection&lt;T&gt;.CollectionNode&lt;M&gt;">
+        <TypeIdentifier>
+          <NewMemberFileName>Collections\MyCustomCollection.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAgAAABBAADACABAQAAAgAAAAEAAAAAAAQAhA=</HashCode>
+      <FileName>Collections\MyCustomCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_253504_Lianha_Lab1.Collections.NoSuchElementException">
+    <Position X="13.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\MyCustomCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_253504_Lianha_Lab1.Entities.Hotel" BaseTypeListCollapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="_253504_Lianha_Lab1.Entities.Hotel.Client">
+        <TypeIdentifier>
+          <NewMemberFileName>Entities\Hotel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="_253504_Lianha_Lab1.Entities.Hotel.Room">
+        <TypeIdentifier>
+          <NewMemberFileName>Entities\Hotel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Delegate Name="_253504_Lianha_Lab1.Entities.Hotel.EventHandler">
+        <TypeIdentifier>
+          <NewMemberFileName>Entities\Hotel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAACAAAAAICAAAgAQIAACAAAAAECAACAAA=</HashCode>
+      <FileName>Entities\Hotel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="clients" />
+      <Field Name="eventJournal" />
+      <Field Name="rooms" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="_253504_Lianha_Lab1.Entities.Journal">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAABAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Journal.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="events" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_253504_Lianha_Lab1.Entities.Printer&lt;T&gt;">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <AssociationLine Name="_params" Type="_253504_Lianha_Lab1.Entities.PrinterParameters" FixedToPoint="true">
+      <Path>
+        <Point X="14" Y="4.796" />
+        <Point X="14" Y="5.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Entities\Printer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_params" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_253504_Lianha_Lab1.Entities.PrinterParameters">
+    <Position X="13.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Printer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="_253504_Lianha_Lab1.Interfaces.ICustomCollection&lt;T&gt;">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAAAAABAAACACABAQAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICustomCollection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="_253504_Lianha_Lab1.Interfaces.IHotel">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAACAAAAAACAAAAAAIAACAAAAAAAAACAAA=</HashCode>
+      <FileName>Interfaces\IHotel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="_253504_Lianha_Lab1.Entities.HotelEventType">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Entities\HotelEventType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

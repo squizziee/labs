@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\HP\Desktop\CPP\Lab6\task5test\main.cpp(6,51): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6\task5test\main.cpp(41,26): warning C4244: инициализация: преобразование "long double" в "__int64", возможна потеря данных
+  test.cpp
+  Создание кода...
+     Создается библиотека C:\Users\HP\Desktop\CPP\Lab6\x64\Debug\task5test.lib и объект C:\Users\HP\Desktop\CPP\Lab6\x64\Debug\task5test.exp
+  task5test.vcxproj -> C:\Users\HP\Desktop\CPP\Lab6\x64\Debug\task5test.exe

@@ -1,0 +1,4 @@
+﻿  Task3.cpp
+C:\Users\HP\Desktop\CPP\Lab8\Task3\Task3.cpp(52,67): warning C4267: аргумент: преобразование из "size_t" в "long"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab8\Task3\Task3.cpp(78,39): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Task3.vcxproj -> C:\Users\HP\Desktop\CPP\Lab8\x64\Debug\Task3.exe

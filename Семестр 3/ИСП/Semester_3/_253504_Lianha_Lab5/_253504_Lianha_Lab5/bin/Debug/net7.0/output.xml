@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAutomobile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Automobile>
+    <Engine>
+      <Name>Monster</Name>
+      <Power>1500</Power>
+      <Torque>1600</Torque>
+      <Displacement>7993</Displacement>
+      <CylinderCount>16</CylinderCount>
+      <LayoutType>WEngine</LayoutType>
+    </Engine>
+    <Brand>Bugatti</Brand>
+    <Model>Chiron Pur Sport</Model>
+    <BodyType>Coupe</BodyType>
+  </Automobile>
+  <Automobile>
+    <Engine>
+      <Name>Twin Turbo Aluminum</Name>
+      <Power>1160</Power>
+      <Torque>1000</Torque>
+      <Displacement>5000</Displacement>
+      <CylinderCount>8</CylinderCount>
+      <LayoutType>VEngine</LayoutType>
+    </Engine>
+    <Brand>Koenigsegg</Brand>
+    <Model>Agera RS</Model>
+    <BodyType>Coupe</BodyType>
+  </Automobile>
+  <Automobile>
+    <Engine>
+      <Name>Naturally aspirated</Name>
+      <Power>1036</Power>
+      <Torque>900</Torque>
+      <Displacement>6262</Displacement>
+      <CylinderCount>12</CylinderCount>
+      <LayoutType>VEngine</LayoutType>
+    </Engine>
+    <Brand>Ferrari</Brand>
+    <Model>FXX K</Model>
+    <BodyType>Coupe</BodyType>
+  </Automobile>
+  <Automobile>
+    <Engine>
+      <Name>Supercharged 3 valves per cylinder</Name>
+      <Power>507</Power>
+      <Torque>700</Torque>
+      <Displacement>5439</Displacement>
+      <CylinderCount>8</CylinderCount>
+      <LayoutType>VEngine</LayoutType>
+    </Engine>
+    <Brand>Mercedes-Benz</Brand>
+    <Model>G55 AMG</Model>
+    <BodyType>Coupe</BodyType>
+  </Automobile>
+  <Automobile>
+    <Engine>
+      <Name>Odd-firing</Name>
+      <Power>562</Power>
+      <Torque>540</Torque>
+      <Displacement>5200</Displacement>
+      <CylinderCount>10</CylinderCount>
+      <LayoutType>VEngine</LayoutType>
+    </Engine>
+    <Brand>Lamborghini</Brand>
+    <Model>Sesto Elemento</Model>
+    <BodyType>Coupe</BodyType>
+  </Automobile>
+</ArrayOfAutomobile>

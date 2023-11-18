@@ -1,0 +1,15 @@
+  ADDR B1 B2 B3 B4 thrass11.tmp                                     PAGE       1
+
+                           org $8000       ; start of program in memory
+                   START:
+  8000 CE 12 34            LDX #$1234      ; set X to $1234
+  8003 FF 90 00            STX $9000
+  8006 B6 90 00            LDAA $9000
+  8009 B7 90 02            STAA $9002
+  800C FE 90 01            LDX $9001
+
+
+
+  Symbol Table 
+
+  START              8000

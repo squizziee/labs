@@ -1,0 +1,7 @@
+﻿  BinarySearchTree.cpp
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\BinarySearchTree\BinarySearchTree.cpp(96,28): warning C4244: аргумент: преобразование "size_t" в "long double", возможна потеря данных
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\BinarySearchTree\BinarySearchTree.cpp(93,1): message : во время компиляции функции-члена класс шаблон "void custom::binary_search_tree<int>::balance(void)"
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\BinarySearchTree\BinarySearchTree.cpp(148,11): message : выполняется компиляция ссылки на экземпляр шаблон функции "void custom::binary_search_tree<int>::balance(void)"
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\BinarySearchTree\BinarySearchTree.cpp(176,34): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "custom::binary_search_tree<int>"
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\BinarySearchTree\BinarySearchTree.cpp(100,1): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  BinarySearchTree.vcxproj -> C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\x64\Debug\BinarySearchTree.exe

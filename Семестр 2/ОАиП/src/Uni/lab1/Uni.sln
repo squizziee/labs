@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uni", "Uni\Uni.vcxproj", "{14603AE9-BB75-473D-87E8-CA5E180B3BD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tasks", "tasks", "{A3CED6A9-2D89-4710-B288-B98AF9E7A995}"
+	ProjectSection(SolutionItems) = preProject
+		Uni\task1.cpp = Uni\task1.cpp
+		Uni\task1.h = Uni\task1.h
+		Uni\task2.cpp = Uni\task2.cpp
+		Uni\task2.h = Uni\task2.h
+		Uni\task3.cpp = Uni\task3.cpp
+		Uni\task3.h = Uni\task3.h
+		Uni\task4.cpp = Uni\task4.cpp
+		Uni\task4.h = Uni\task4.h
+		Uni\task5.cpp = Uni\task5.cpp
+		Uni\task5.h = Uni\task5.h
+		Uni\task6.cpp = Uni\task6.cpp
+		Uni\task6.h = Uni\task6.h
+		Uni\task8.cpp = Uni\task8.cpp
+		Uni\task8.h = Uni\task8.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "labwork1", "labwork1", "{43641411-59D9-4733-BC67-EA9A0AA568E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14603AE9-BB75-473D-87E8-CA5E180B3BD3}.Debug|x64.ActiveCfg = Debug|x64
+		{14603AE9-BB75-473D-87E8-CA5E180B3BD3}.Debug|x64.Build.0 = Debug|x64
+		{14603AE9-BB75-473D-87E8-CA5E180B3BD3}.Debug|x86.ActiveCfg = Debug|Win32
+		{14603AE9-BB75-473D-87E8-CA5E180B3BD3}.Debug|x86.Build.0 = Debug|Win32
+		{14603AE9-BB75-473D-87E8-CA5E180B3BD3}.Release|x64.ActiveCfg = Release|x64
+		{14603AE9-BB75-473D-87E8-CA5E180B3BD3}.Release|x64.Build.0 = Release|x64
+		{14603AE9-BB75-473D-87E8-CA5E180B3BD3}.Release|x86.ActiveCfg = Release|Win32
+		{14603AE9-BB75-473D-87E8-CA5E180B3BD3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3CED6A9-2D89-4710-B288-B98AF9E7A995} = {43641411-59D9-4733-BC67-EA9A0AA568E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {026F26B0-E198-4CAA-8B07-1818D034E188}
+	EndGlobalSection
+EndGlobal

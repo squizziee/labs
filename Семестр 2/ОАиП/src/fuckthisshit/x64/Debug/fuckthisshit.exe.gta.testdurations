@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\HP\Desktop\CPP\fuckthisshit\x64\Debug\fuckthisshit.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="multTesting.multTest1" Duration="1" />
+    <TestDuration Test="multTesting.multTest2" Duration="1" />
+    <TestDuration Test="multTesting.multTest3" Duration="1" />
+    <TestDuration Test="multTesting.multTest4" Duration="1" />
+    <TestDuration Test="task3test.multTest1" Duration="1" />
+    <TestDuration Test="task3test.multTest2" Duration="1" />
+    <TestDuration Test="task3test.multTest3" Duration="1" />
+    <TestDuration Test="task3test.multTest4" Duration="1" />
+    <TestDuration Test="task3test.vectTest1" Duration="1" />
+    <TestDuration Test="task3test.vectTest2" Duration="1" />
+    <TestDuration Test="task3test.vectTest3" Duration="1" />
+    <TestDuration Test="task4test.reverseTest1" Duration="1" />
+    <TestDuration Test="task4test.reverseTest2" Duration="1" />
+    <TestDuration Test="task4test.reverseTest3" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

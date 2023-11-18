@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "LoremNET/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LoremNET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LoremNET.dll": {}
+        }
+      },
+      "_253504_Lianha_Lab8.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/_253504_Lianha_Lab8.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/_253504_Lianha_Lab8.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LoremNET/2.0.0": {
+      "sha512": "qLvVQSAqVVQKptrbw0BV0nPJoaCp4wH38BCwCUl9cD/F6U8kLqWR1FcWqk3ATg6443rDYoI8y0lQbrVk9qDLLg==",
+      "type": "package",
+      "path": "loremnet/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/LoremNET.dll",
+        "loremnet.2.0.0.nupkg.sha512",
+        "loremnet.nuspec"
+      ]
+    },
+    "_253504_Lianha_Lab8.Domain/1.0.0": {
+      "type": "project",
+      "path": "../_253504_Lianha_Lab8.Domain/_253504_Lianha_Lab8.Domain.csproj",
+      "msbuildProject": "../_253504_Lianha_Lab8.Domain/_253504_Lianha_Lab8.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "LoremNET >= 2.0.0",
+      "_253504_Lianha_Lab8.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Uni\\Семестр 3\\ИСП\\Semester_3\\_253504_Lianha_Lab8\\_253504_Lianha_Lab8\\_253504_Lianha_Lab8.csproj",
+      "projectName": "_253504_Lianha_Lab8",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Uni\\Семестр 3\\ИСП\\Semester_3\\_253504_Lianha_Lab8\\_253504_Lianha_Lab8\\_253504_Lianha_Lab8.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Uni\\Семестр 3\\ИСП\\Semester_3\\_253504_Lianha_Lab8\\_253504_Lianha_Lab8\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\HP\\Desktop\\Uni\\Семестр 3\\ИСП\\Semester_3\\_253504_Lianha_Lab8\\_253504_Lianha_Lab8.Domain\\_253504_Lianha_Lab8.Domain.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\Uni\\Семестр 3\\ИСП\\Semester_3\\_253504_Lianha_Lab8\\_253504_Lianha_Lab8.Domain\\_253504_Lianha_Lab8.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "LoremNET": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

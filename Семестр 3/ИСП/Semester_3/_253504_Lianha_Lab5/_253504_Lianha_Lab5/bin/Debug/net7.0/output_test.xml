@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAutomobile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Automobile>
+    <Engine>
+      <Name>Monster</Name>
+      <Power>1500</Power>
+      <Torque>1600</Torque>
+      <Displacement>7993</Displacement>
+      <CylinderCount>16</CylinderCount>
+      <LayoutType>WEngine</LayoutType>
+    </Engine>
+    <Brand>Bugatti</Brand>
+    <Model>Chiron Pur Sport</Model>
+    <BodyType>Coupe</BodyType>
+  </Automobile>
+  <Automobile>
+    <Engine>
+      <Name>Monster</Name>
+      <Power>1500</Power>
+      <Torque>1600</Torque>
+      <Displacement>7993</Displacement>
+      <CylinderCount>16</CylinderCount>
+      <LayoutType>WEngine</LayoutType>
+    </Engine>
+    <Brand>Bugatti</Brand>
+    <Model>Chiron Pur Sport</Model>
+    <BodyType>Coupe</BodyType>
+  </Automobile>
+</ArrayOfAutomobile>

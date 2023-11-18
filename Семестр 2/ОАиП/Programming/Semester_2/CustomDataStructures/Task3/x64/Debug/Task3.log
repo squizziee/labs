@@ -1,0 +1,9 @@
+﻿  Task3.cpp
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Task3\Task3.cpp(32,45): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Task3\Vector.h(376,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Task3\Vector.h(374,1): message : во время компиляции функции-члена класс шаблон "void Vector<int>::grow(void)"
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Task3\Vector.h(222,8): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Vector<int>::grow(void)"
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Task3\Task3.cpp(6,26): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<int>"
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Task3\Vector.h(106): warning C4172: возвращение адреса локальной или временной переменной : temp
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Task3\Vector.h(247): warning C4715: Vector<int>::at: значение возвращается не при всех путях выполнения
+  Task3.vcxproj -> C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\x64\Debug\Task3.exe

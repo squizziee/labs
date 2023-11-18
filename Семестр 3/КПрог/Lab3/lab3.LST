@@ -1,0 +1,52 @@
+  ADDR B1 B2 B3 B4 thrass11.tmp                                     PAGE       1
+
+                           ORG $8000
+  8000 CE 82 00            LDX #$8200
+  8003 86 00               LDAA #$00
+  8005 C6 00               LDAB #$00
+  8007 97 21               STAA $21
+  8009 D7 22               STAB $22
+  800B 7E 80 0E            JMP LOOP
+                   LOOP:
+  800E 8C 82 FF            CMPX #$82ff
+  8011 27 3F               BEQ END
+  8013 86 00               LDAA #$00
+  8015 B7 84 00            STAA $8400
+  8018 A6 00               LDAA 0,X
+  801A B7 84 01            STAA $8401
+  801D FC 84 00            LDD $8400
+  8020 18 DE 21            LDY $21
+  8023 BD 80 2A            JSR ADD_16X16
+  8026 08                  INX
+  8027 7E 80 0E            JMP LOOP
+                   ADD_16X16:
+  802A DD 01               STD $1
+  802C 18 DF 03            STY $3
+  802F 96 02               LDAA $2
+  8031 D6 04               LDAB $4
+  8033 1B                  ABA
+  8034 97 22               STAA $22
+  8036 86 00               LDAA #0
+  8038 89 00               ADCA #0
+  803A 97 21               STAA $21
+  803C 96 01               LDAA $1
+  803E D6 03               LDAB $3
+  8040 1B                  ABA
+  8041 36                  PSHA
+  8042 86 00               LDAA #0
+  8044 89 00               ADCA #0
+  8046 97 20               STAA $20
+  8048 32                  PULA
+  8049 D6 21               LDAB $21
+  804B 1B                  ABA
+  804C 97 21               STAA $21
+  804E 18 DE 21            LDY $21
+  8051 39                  RTS
+                   END:
+  8052 20 FE               BRA *
+
+  Symbol Table 
+
+  ADD_16X16          802A
+  END                8052
+  LOOP               800E

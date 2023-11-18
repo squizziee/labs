@@ -1,0 +1,3 @@
+﻿     Создается библиотека C:\Users\HP\Desktop\CPP\Lab6\x64\Debug\UnitTest1.lib и объект C:\Users\HP\Desktop\CPP\Lab6\x64\Debug\UnitTest1.exp
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "__int64 __cdecl run(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?run@@YA_JHHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) в функции "public: void __cdecl UnitTest1::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@1@QEAAXXZ).
+C:\Users\HP\Desktop\CPP\Lab6\x64\Debug\UnitTest1.dll : fatal error LNK1120: неразрешенных внешних элементов: 1

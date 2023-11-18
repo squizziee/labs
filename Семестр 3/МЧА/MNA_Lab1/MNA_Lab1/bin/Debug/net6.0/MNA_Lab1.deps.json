@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MNA_Lab1/1.0.0": {
+        "runtime": {
+          "MNA_Lab1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MNA_Lab1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

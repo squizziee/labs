@@ -1,0 +1,17 @@
+﻿  donut.cpp
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(14,40): warning C4305: +=: усечение из "double" в "float"
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(15,44): warning C4305: +=: усечение из "double" в "float"
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(16,25): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(16,37): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(16,49): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(16,61): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(16,73): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(16,129): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(16,141): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(16,153): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(17,23): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(17,62): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(17,117): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(25,18): warning C4305: +=: усечение из "double" в "float"
+C:\Users\HP\Desktop\CPP\donut\donut\donut.cpp(26,18): warning C4305: +=: усечение из "double" в "float"
+  donut.vcxproj -> C:\Users\HP\Desktop\CPP\donut\x64\Debug\donut.exe

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7YnEv4wn4Om1s5Jm48tC/6H+ga4q3Ed4mwHrGICqiz0sF3YnvK0iBlmIo6tHIurVR5Ukwq8iKDPQ25a2xNApSg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\CSHARP\\Lab1\\_253504_Liango\\_253504_Liango\\_253504_Liango.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

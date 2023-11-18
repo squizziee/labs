@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\Polynomial\obj\Debug\net6.0\Polynomial.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\Polynomial\obj\Debug\net6.0\Polynomial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\Polynomial\obj\Debug\net6.0\Polynomial.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\Polynomial\obj\Debug\net6.0\Polynomial.AssemblyInfo.cs
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\Polynomial\obj\Debug\net6.0\Polynomial.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\Polynomial\bin\Debug\net6.0\Polynomial.deps.json
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\Polynomial\bin\Debug\net6.0\Polynomial.dll
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\Polynomial\bin\Debug\net6.0\Polynomial.pdb
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\Polynomial\obj\Debug\net6.0\Polynomial.dll
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\Polynomial\obj\Debug\net6.0\refint\Polynomial.dll
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\Polynomial\obj\Debug\net6.0\Polynomial.pdb
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\Polynomial\obj\Debug\net6.0\ref\Polynomial.dll

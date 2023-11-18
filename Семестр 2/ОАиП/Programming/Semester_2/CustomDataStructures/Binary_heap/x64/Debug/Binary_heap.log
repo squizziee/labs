@@ -1,0 +1,4 @@
+﻿  BinaryHeap.cpp
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Binary_heap\BinaryHeap.cpp(37,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Binary_heap\BinaryHeap.cpp(75,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Binary_heap.vcxproj -> C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\x64\Debug\BinaryHeap.exe

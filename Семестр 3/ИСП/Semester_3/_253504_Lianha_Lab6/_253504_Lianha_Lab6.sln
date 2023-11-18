@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_253504_Lianha_Lab6", "_253504_Lianha_Lab6\_253504_Lianha_Lab6.csproj", "{661A2283-846E-4497-A440-C3CC15E3172A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileServiceLib", "FileServiceDLL\FileServiceLib.csproj", "{D5E20A89-786D-4453-A118-D87E798FC390}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{661A2283-846E-4497-A440-C3CC15E3172A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661A2283-846E-4497-A440-C3CC15E3172A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661A2283-846E-4497-A440-C3CC15E3172A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661A2283-846E-4497-A440-C3CC15E3172A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E20A89-786D-4453-A118-D87E798FC390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E20A89-786D-4453-A118-D87E798FC390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E20A89-786D-4453-A118-D87E798FC390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E20A89-786D-4453-A118-D87E798FC390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48BF9808-4BEF-47B2-960B-FA2FC509536A}
+	EndGlobalSection
+EndGlobal

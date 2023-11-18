@@ -1,0 +1,5 @@
+﻿  Task3.cpp
+C:\Users\HP\Desktop\CPP\Lab7\Task3\Task3.cpp(60,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab7\Task3\Task3.cpp(101,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab7\Task3\Task3.cpp(24): warning C4715: UNumber::getOffset: значение возвращается не при всех путях выполнения
+  Task3.vcxproj -> C:\Users\HP\Desktop\CPP\Lab7\x64\Debug\Task3.exe

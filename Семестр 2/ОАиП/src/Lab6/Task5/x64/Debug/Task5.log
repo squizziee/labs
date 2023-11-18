@@ -1,0 +1,4 @@
+﻿  Task5.cpp
+C:\Users\HP\Desktop\CPP\Lab6\Task5\Task5.cpp(39,62): warning C4244: аргумент: преобразование "__int64" в "long double", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6\Task5\Task5.cpp(40,53): warning C4244: аргумент: преобразование "__int64" в "long double", возможна потеря данных
+  Task5.vcxproj -> C:\Users\HP\Desktop\CPP\Lab6\x64\Debug\Task5.exe

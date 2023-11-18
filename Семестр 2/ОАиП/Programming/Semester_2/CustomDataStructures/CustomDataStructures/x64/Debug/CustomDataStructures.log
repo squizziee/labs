@@ -1,0 +1,6 @@
+﻿  CustomDataStructures.cpp
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\CustomDataStructures\CustomDataStructures.cpp(1,16): warning C5050: Возможная несовместимая среда при импорте модуля "std.core": _GUARDOVERFLOW_CRT_ALLOCATORS=1 is defined in current command line and not in module command line
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\CustomDataStructures\CustomDataStructures.cpp(1,16): warning C5050: Возможная несовместимая среда при импорте модуля "std.core": _DEBUG is defined in current command line and not in module command line
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\CustomDataStructures\CustomDataStructures.cpp(1,16): warning C5050: Возможная несовместимая среда при импорте модуля "std.core": _M_FP_PRECISE is defined in current command line and not in module command line
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\CustomDataStructures\CustomDataStructures.cpp(1,16): warning C5050: Возможная несовместимая среда при импорте модуля "std.core": mismatched C++ versions.  Current "202002" module version "202004"
+  CustomDataStructures.vcxproj -> C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\x64\Debug\CustomDataStructures.exe

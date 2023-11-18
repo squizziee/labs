@@ -1,0 +1,27 @@
+﻿  TreeMap.cpp
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\TreeMap\TreeMap.cpp(286,27): warning C4244: аргумент: преобразование "size_t" в "long double", возможна потеря данных
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\TreeMap\TreeMap.cpp(283,1): message : во время компиляции функции-члена класс шаблон "void tree_map<K,V>::balance(void)"
+          with
+          [
+              K=int,
+              V=int
+          ]
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\TreeMap\TreeMap.cpp(357,10): message : выполняется компиляция ссылки на экземпляр шаблон функции "void tree_map<K,V>::balance(void)"
+          with
+          [
+              K=int,
+              V=int
+          ]
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\TreeMap\TreeMap.cpp(384,1): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "tree_map<K,V>"
+          with
+          [
+              K=int,
+              V=int
+          ]
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\TreeMap\TreeMap.cpp(395,16): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "tree_set<int,K>"
+          with
+          [
+              K=int
+          ]
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\TreeMap\TreeMap.cpp(290,1): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  TreeMap.vcxproj -> C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\x64\Debug\TreeMap.exe

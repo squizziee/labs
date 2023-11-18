@@ -1,0 +1,5 @@
+﻿  CPPParser.cpp
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\CPPParser\CPPParser.cpp(18,1): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\CPPParser\CPPParser.cpp(19,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\CPPParser\CPPParser.cpp(23,1): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  CPPParser.vcxproj -> C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\x64\Debug\CPPParser.exe

@@ -1,0 +1,3 @@
+C:/Users/HP/Desktop/CPP/lab3_cllion/cmake-build-debug/CMakeFiles/lab3_cllion.dir
+C:/Users/HP/Desktop/CPP/lab3_cllion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/HP/Desktop/CPP/lab3_cllion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

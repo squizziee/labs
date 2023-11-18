@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutomobileList>
+  <Automobile>
+    <Engine Name="Monster" Power="1500" Torque="1600" Displacement="7993" CylinderCount="16" LayoutType="3" />
+    <Brand>Bugatti</Brand>
+    <Model>Chiron Pur Sport</Model>
+    <BodyType>3</BodyType>
+  </Automobile>
+  <Automobile>
+    <Engine Name="Twin Turbo Aluminum" Power="1160" Torque="1000" Displacement="5000" CylinderCount="8" LayoutType="2" />
+    <Brand>Koenigsegg</Brand>
+    <Model>Agera RS</Model>
+    <BodyType>3</BodyType>
+  </Automobile>
+  <Automobile>
+    <Engine Name="Naturally aspirated" Power="1036" Torque="900" Displacement="6262" CylinderCount="12" LayoutType="2" />
+    <Brand>Ferrari</Brand>
+    <Model>FXX K</Model>
+    <BodyType>3</BodyType>
+  </Automobile>
+  <Automobile>
+    <Engine Name="Supercharged 3 valves per cylinder" Power="507" Torque="700" Displacement="5439" CylinderCount="8" LayoutType="2" />
+    <Brand>Mercedes-Benz</Brand>
+    <Model>G55 AMG</Model>
+    <BodyType>3</BodyType>
+  </Automobile>
+  <Automobile>
+    <Engine Name="Odd-firing" Power="562" Torque="540" Displacement="5200" CylinderCount="10" LayoutType="2" />
+    <Brand>Lamborghini</Brand>
+    <Model>Sesto Elemento</Model>
+    <BodyType>3</BodyType>
+  </Automobile>
+</AutomobileList>

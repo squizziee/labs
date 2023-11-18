@@ -1,0 +1,23 @@
+  ADDR B1 B2 B3 B4 C:\Users\HP\Desktop\Assembler\lab1_2.asm         PAGE       1
+
+                           ORG $8000
+  8000 86 00               LDAA #00        ; SET X REGISTER TO 0010
+  8002 B7 82 00            STAA $8200
+  8005 86 0A               LDAA #10
+  8007 B7 82 01            STAA $8201
+  800A FE 82 00            LDX $8200
+  800D 86 00               LDAA #00        ; SET D ACCUMULATOR TO $00CD
+  800F C6 4B               LDAB #75
+  8011 02                  IDIV            ; DIVIDE D REGISTER BY X REGISTER
+  8012 FD 83 00            STD $8300       ; STORE REMAINDER
+  8015 FF 84 00            STX $8400       ; STORE RESULT
+  8018 B6 84 01            LDAA $8401
+  801B C6 30               LDAB #48
+  801D 1B                  ABA
+  801E B7 85 00            STAA $8500
+  8021 B6 83 01            LDAA $8301
+  8024 1B                  ABA
+  8025 B7 85 01            STAA $8501
+  8028 18 FE 85 00         LDY $8500
+
+

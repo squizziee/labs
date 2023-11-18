@@ -1,0 +1,2 @@
+﻿Lab4.cpp(259,6): warning : unused variable 'maxVal' [-Wunused-variable]
+  Lab4.vcxproj -> C:\Users\HP\Desktop\CPP\Lab4\x64\Debug\Lab4.exe

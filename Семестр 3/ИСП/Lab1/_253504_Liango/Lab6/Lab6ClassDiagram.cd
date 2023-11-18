@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab6.Classes.Fruits.Apple" Collapsed="true">
+    <Position X="10.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Fruits\Apple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab6.Classes.Fruits.Mango" Collapsed="true">
+    <Position X="12.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Fruits\Mango.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab6.Classes.Fruit" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Fruits\Fruit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab6.Classes.Product" Collapsed="true">
+    <Position X="13.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAQAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab6.Classes.Vegetables.Cucumber">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Vegetables\Cucumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab6.Classes.Vegetables.Tomato" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Vegetables\Tomato.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab6.Classes.Vegetables.Vegetable">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Vegetables\Vegetable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Healthiness" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="Lab6.Classes.Taste">
+    <Position X="21.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAAE=</HashCode>
+      <FileName>Classes\Fruits\Taste.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Lab6.Classes.Vegetables.Healthiness">
+    <Position X="19.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAABAAIAAAMAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Vegetables\Healthiness.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

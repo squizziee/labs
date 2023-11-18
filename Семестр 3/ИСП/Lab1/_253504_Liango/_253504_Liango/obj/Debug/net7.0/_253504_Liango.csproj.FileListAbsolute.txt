@@ -1,0 +1,17 @@
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\bin\Debug\net7.0\_253504_Liango.exe
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\bin\Debug\net7.0\_253504_Liango.deps.json
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\bin\Debug\net7.0\_253504_Liango.runtimeconfig.json
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\bin\Debug\net7.0\_253504_Liango.dll
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\bin\Debug\net7.0\_253504_Liango.pdb
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\obj\Debug\net7.0\_253504_Liango.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\obj\Debug\net7.0\_253504_Liango.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\obj\Debug\net7.0\_253504_Liango.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\obj\Debug\net7.0\_253504_Liango.AssemblyInfo.cs
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\obj\Debug\net7.0\_253504_Liango.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\obj\Debug\net7.0\_253504_Liango.csproj.CopyComplete
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\obj\Debug\net7.0\_253504_Liango.dll
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\obj\Debug\net7.0\refint\_253504_Liango.dll
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\obj\Debug\net7.0\_253504_Liango.pdb
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\obj\Debug\net7.0\_253504_Liango.genruntimeconfig.cache
+C:\Users\HP\Desktop\CSHARP\Lab1\_253504_Liango\_253504_Liango\obj\Debug\net7.0\ref\_253504_Liango.dll

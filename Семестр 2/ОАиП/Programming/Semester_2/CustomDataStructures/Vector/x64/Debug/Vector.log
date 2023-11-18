@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Vector\Vector.h(380,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Vector\Vector.h(378,1): message : во время компиляции функции-члена класс шаблон "void Vector<int>::grow(void)"
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Vector\Vector.h(228,9): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Vector<int>::grow(void)"
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Vector\main.cpp(5,14): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<int>"
+C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\Vector\Vector.h(159): warning C4172: возвращение адреса локальной или временной переменной : temp
+  Vector.vcxproj -> C:\Users\HP\Desktop\Programming\Semester_2\CustomDataStructures\x64\Debug\Vector.exe

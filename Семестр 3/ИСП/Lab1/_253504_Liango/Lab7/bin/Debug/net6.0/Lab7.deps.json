@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Lab7/1.0.0": {
+        "dependencies": {
+          "Polynomial": "1.0.0"
+        },
+        "runtime": {
+          "Lab7.dll": {}
+        }
+      },
+      "Polynomial/1.0.0": {
+        "runtime": {
+          "Polynomial.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab7/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Polynomial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

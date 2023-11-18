@@ -1,0 +1,4 @@
+﻿  test.cpp
+C:\Users\HP\Desktop\CPP\Lab6\Lab6Testing\test.cpp(5,10): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+test.obj : error LNK2019: ссылка на неразрешенный внешний символ "__int64 __cdecl run(__int64,__int64,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?run@@YA_J_J0V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z) в функции "private: virtual void __cdecl Task5Testing_Task5Test1_Test::TestBody(void)" (?TestBody@Task5Testing_Task5Test1_Test@@EEAAXXZ).
+C:\Users\HP\Desktop\CPP\Lab6\x64\Debug\Lab6Testing.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

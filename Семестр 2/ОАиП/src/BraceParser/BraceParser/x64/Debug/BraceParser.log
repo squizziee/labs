@@ -1,0 +1,7 @@
+﻿BraceParser.cpp(228,24): warning : '&&' within '||' [-Wlogical-op-parentheses]
+BraceParser.cpp(228,24): message : place parentheses around the '&&' expression to silence this warning
+BraceParser.cpp(228,54): warning : '&&' within '||' [-Wlogical-op-parentheses]
+BraceParser.cpp(228,54): message : place parentheses around the '&&' expression to silence this warning
+BraceParser.cpp(33,28): warning : field 'capacity' will be initialized after field 'arr' [-Wreorder-ctor]
+BraceParser.cpp(222,22): message : in instantiation of member function 'Victor<std::basic_string<char>>::Victor' requested here
+  BraceParser.vcxproj -> C:\Users\HP\Desktop\CPP\BraceParser\x64\Debug\BraceParser.exe

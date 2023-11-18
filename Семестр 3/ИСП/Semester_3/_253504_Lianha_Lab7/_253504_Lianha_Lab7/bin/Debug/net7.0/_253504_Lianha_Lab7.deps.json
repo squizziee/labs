@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "_253504_Lianha_Lab7/1.0.0": {
+        "dependencies": {
+          "_253504_Lianha_Lab7.Domain": "1.0.0"
+        },
+        "runtime": {
+          "_253504_Lianha_Lab7.dll": {}
+        }
+      },
+      "_253504_Lianha_Lab7.Domain/1.0.0": {
+        "runtime": {
+          "_253504_Lianha_Lab7.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "_253504_Lianha_Lab7/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "_253504_Lianha_Lab7.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

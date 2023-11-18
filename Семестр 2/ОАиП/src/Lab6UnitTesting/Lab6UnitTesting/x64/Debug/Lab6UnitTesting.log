@@ -1,0 +1,14 @@
+﻿  test.cpp
+C:\Users\HP\Desktop\CPP\Lab6UnitTesting\Lab6UnitTesting\test.cpp(38,62): warning C4244: аргумент: преобразование "__int64" в "long double", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6UnitTesting\Lab6UnitTesting\test.cpp(39,53): warning C4244: аргумент: преобразование "__int64" в "long double", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6UnitTesting\Lab6UnitTesting\test.cpp(92,51): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6UnitTesting\Lab6UnitTesting\test.cpp(98,50): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6UnitTesting\Lab6UnitTesting\test.cpp(130,18): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6UnitTesting\Lab6UnitTesting\test.cpp(141,26): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6UnitTesting\Lab6UnitTesting\test.cpp(146,10): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6UnitTesting\Lab6UnitTesting\test.cpp(151,10): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6UnitTesting\Lab6UnitTesting\test.cpp(156,10): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6UnitTesting\Lab6UnitTesting\test.cpp(176,10): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6UnitTesting\Lab6UnitTesting\test.cpp(181,10): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\HP\Desktop\CPP\Lab6UnitTesting\Lab6UnitTesting\test.cpp(186,10): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+  Lab6UnitTesting.vcxproj -> C:\Users\HP\Desktop\CPP\Lab6UnitTesting\x64\Debug\Lab6UnitTesting.exe
