@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="CalculatorApp.RatePage"
+			 Shell.NavBarIsVisible="False"
+			 Title="RatePage">
+    <VerticalStackLayout>
+        <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*" Padding="10" ColumnSpacing="10" RowSpacing="10">
+            <DatePicker Grid.Row="0" Grid.ColumnSpan="2" x:Name="selectedDate" DateSelected="OnDateSelected"></DatePicker>
+            <Picker BindingContext="{Binding Cur_Name}"
+                x:Name="selectedCurrencySource"
+				VerticalOptions="Center"
+				BackgroundColor="Black"
+				TextColor="White"
+				Grid.Row="1"
+				Grid.Column="0">
+            </Picker>
+            <Picker x:Name="selectedCurrencyDestination"
+				VerticalOptions="Center"
+				BackgroundColor="Black"
+				TextColor="White"
+				Grid.Row="1"
+				Grid.Column="1">
+            </Picker>
+            <Entry Keyboard="Numeric" x:Name="sourceEntry" Grid.Row="2" Grid.Column="0"></Entry>
+            <Entry x:Name="destinationEntry" IsReadOnly="True" Grid.Row="2" Grid.Column="1"></Entry>
+            <Button x:Name="convertBtn" Clicked="OnConvertBtnClicked" Text="Convert" Grid.Row="3" Grid.ColumnSpan="2"></Button>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

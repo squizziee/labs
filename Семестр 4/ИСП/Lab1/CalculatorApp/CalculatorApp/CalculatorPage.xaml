@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="CalculatorApp.CalculatorPage"
+			 Title="CalculatorPage"
+             Shell.NavBarIsVisible="False">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label 
+                x:Name="operations"
+                Grid.Row="0"
+                Grid.ColumnSpan="4"
+                BackgroundColor="Black" 
+                TextColor="White"
+                LineBreakMode="NoWrap"
+                Text="" 
+                HorizontalTextAlignment="End"
+            FontAttributes="Bold"
+                VerticalTextAlignment="Center">
+            
+        </Label>
+        <Label 
+				x:Name="result"
+				Grid.ColumnSpan="4"
+                Grid.Row="1"
+                LineBreakMode="NoWrap"
+				BackgroundColor="#333333" 
+				Text="0" 
+				HorizontalTextAlignment="End"
+				VerticalTextAlignment="End"
+                FontAttributes="Bold"
+                Padding="10,0"
+                FontSize="48"></Label>
+        <Button BackgroundColor="WhiteSmoke" CornerRadius="0" Clicked="OnClicked" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="1" Text="%"></Button>
+        <Button BackgroundColor="WhiteSmoke" CornerRadius="0" Clicked="OnClicked" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="1" Text="1/x"></Button>
+        <Button BackgroundColor="GhostWhite" CornerRadius="0" Clicked="OnClicked" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="1" Text="7"></Button>
+        <Button BackgroundColor="GhostWhite" CornerRadius="0" Clicked="OnClicked" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="1" Text="4"></Button>
+        <Button BackgroundColor="GhostWhite" CornerRadius="0" Clicked="OnClicked" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="1" Text="1"></Button>
+        <Button BackgroundColor="GhostWhite" CornerRadius="0" Clicked="OnClicked" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="1" Text="sin(x)"></Button>
+
+        <Button BackgroundColor="WhiteSmoke" CornerRadius="0" Clicked="OnClicked" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1" Text="CE"></Button>
+        <Button BackgroundColor="WhiteSmoke" CornerRadius="0" Clicked="OnClicked" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1" Text="sqr(x)"></Button>
+        <Button BackgroundColor="GhostWhite" CornerRadius="0" Clicked="OnClicked" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="1" Text="8"></Button>
+        <Button BackgroundColor="GhostWhite" CornerRadius="0" Clicked="OnClicked" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="1" Text="5"></Button>
+        <Button BackgroundColor="GhostWhite" CornerRadius="0" Clicked="OnClicked" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="1" Text="2"></Button>
+        <Button BackgroundColor="GhostWhite" CornerRadius="0" Clicked="OnClicked" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="1" Text="0"></Button>
+
+        <Button BackgroundColor="WhiteSmoke" CornerRadius="0" Clicked="OnClicked" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="1" Text="C"></Button>
+        <Button BackgroundColor="WhiteSmoke" CornerRadius="0" Clicked="OnClicked" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="1" Text="sqrt(x)"></Button>
+        <Button BackgroundColor="GhostWhite" CornerRadius="0" Clicked="OnClicked" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="1" Text="9"></Button>
+        <Button BackgroundColor="GhostWhite" CornerRadius="0" Clicked="OnClicked" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="1" Text="6"></Button>
+        <Button BackgroundColor="GhostWhite" CornerRadius="0" Clicked="OnClicked" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="1" Text="3"></Button>
+        <Button BackgroundColor="GhostWhite" CornerRadius="0" Clicked="OnClicked" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="1" Text=","></Button>
+
+        <Button BackgroundColor="WhiteSmoke" CornerRadius="0" Clicked="OnClicked" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="1" Text="BSP"></Button>
+        <Button BackgroundColor="WhiteSmoke" CornerRadius="0" Clicked="OnClicked" Grid.Row="6" Grid.Column="3" Grid.ColumnSpan="1" Text="+"></Button>
+        <Button BackgroundColor="WhiteSmoke" CornerRadius="0" Clicked="OnClicked" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="1" Text="/"></Button>
+        <Button BackgroundColor="WhiteSmoke" CornerRadius="0" Clicked="OnClicked" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="1" Text="-"></Button>
+        <Button BackgroundColor="WhiteSmoke" CornerRadius="0" Clicked="OnClicked" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="1" Text="*"></Button>
+        <Button BackgroundColor="OrangeRed" CornerRadius="0" Clicked="OnClicked" Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="1" Text="="></Button>
+    </Grid>
+</ContentPage>
