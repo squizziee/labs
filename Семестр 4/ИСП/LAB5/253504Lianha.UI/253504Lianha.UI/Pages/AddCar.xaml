@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_253504Lianha.UI.Pages.AddCar"
+             x:DataType="models:AddCarViewModel"
+             xmlns:models="clr-namespace:_253504Lianha.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:_253504Lianha.Domain.Entities;assembly=253504Lianha.Domain"
+             xmlns:converter="clr-namespace:_253504Lianha.UI.ValueConverters"
+             Title="Add new car">
+    <VerticalStackLayout>
+        <Grid RowSpacing="10" Padding="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Text="Name" FontSize="18" VerticalOptions="Center" Margin="0,10,0,0"/>
+            <Entry Grid.Row="0" Grid.Column="1" Placeholder="Specify car name" FontSize="18"
+                   Text="{Binding Name}" VerticalOptions="Center"/>
+
+            <Label Grid.Row="1" Grid.Column="0" Text="Country" FontSize="18" VerticalOptions="Center"/>
+            <Entry Grid.Row="1" Grid.Column="1" Placeholder="Specify the country" FontSize="18" 
+                   Text="{Binding Country}" VerticalOptions="Center"/>
+
+            <Label Grid.Row="2" Grid.Column="0" Text="Production date" FontSize="18" VerticalOptions="Center" Margin="0,0,20,0"/>
+            <Entry Grid.Row="2" Grid.Column="1" Placeholder="Year" FontSize="18"
+                   Text="{Binding Year}" VerticalOptions="Center" Keyboard="Numeric" MaxLength="4"/>
+
+            <Label Grid.Row="3" Grid.Column="0" Text="Description" FontSize="18" VerticalOptions="Center"/>
+            <Editor Grid.Row="3" Grid.Column="1" Placeholder="Write detailed sescription" FontSize="18" 
+                    Text="{Binding Description}" VerticalOptions="Center" HeightRequest="200"/>
+        </Grid>
+        <Button
+            HeightRequest="50"
+            WidthRequest="150"
+            CornerRadius="10"
+            Text="Добавить"
+            FontSize="18"
+            Margin="25"
+            Command="{Binding EnterCommand}"
+            />
+    </VerticalStackLayout>
+</ContentPage>

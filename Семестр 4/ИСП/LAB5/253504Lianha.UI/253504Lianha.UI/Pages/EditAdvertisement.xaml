@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_253504Lianha.UI.Pages.EditAdvertisement"
+             xmlns:models="clr-namespace:_253504Lianha.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:_253504Lianha.Domain.Entities;assembly=253504Lianha.Domain"
+             xmlns:converter="clr-namespace:_253504Lianha.UI.ValueConverters"
+             x:DataType="models:EditAdvertisementViewModel"
+             Title="Edit advertisement">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior
+            EventName="Loaded"
+            Command="{Binding UpdateCarsListCommand}"/>
+    </ContentPage.Behaviors>
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid Padding="20" RowSpacing="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Picker
+                    Grid.Row="0" Grid.Column="0"
+                    ItemsSource="{Binding Cars}"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedItem="{Binding SelectedCar}"
+                    Title="Select car"
+                    Grid.ColumnSpan="2"
+                    BackgroundColor="#333333"
+                    FontSize="18"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="Name" FontSize="18" VerticalOptions="Center"/>
+                <Entry Grid.Row="1" Grid.Column="1" Placeholder="Specify the title" FontSize="18"
+                       Text="{Binding Name}" VerticalOptions="Center"/>
+
+                <Label Grid.Row="2" Grid.Column="0" Text="Description" FontSize="18" VerticalOptions="Center"/>
+                <Editor Grid.Row="2" Grid.Column="1" Placeholder="Write description" FontSize="18"
+                        Text="{Binding Description}" VerticalOptions="Center" HeightRequest="200"/>
+
+                <Label Grid.Row="3" Grid.Column="0" Text="Price" FontSize="18" VerticalOptions="Center"/>
+                <Entry Grid.Row="3" Grid.Column="1" Placeholder="Specify the price" FontSize="18"
+                    Text="{Binding Cost}" VerticalOptions="Center" Keyboard="Numeric" MaxLength="8"/>
+
+                <Label Grid.Row="4" Grid.Column="0" Text="Date" FontSize="18" VerticalOptions="Center"/>
+                <DatePicker Grid.Row="4" Grid.Column="1" FontSize="18" Date="{Binding CreatedAt}" VerticalOptions="Center"/>
+
+                <Button Grid.Row="5" Grid.Column="0" Text="Select image" Command="{Binding SelectFileCommand}" BackgroundColor="#333333" TextColor="#ffffff"/>
+                <Image Grid.Row="5" Grid.Column="1" Source="{Binding ImagePath}" HeightRequest="150"/>
+
+                <Button
+                    Grid.Row="7" Grid.Column="1"
+                    HeightRequest="50"
+                    WidthRequest="150"
+                    CornerRadius="10"
+                    Text="Post"
+                    FontSize="18"
+                    Command="{Binding EnterCommand}"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

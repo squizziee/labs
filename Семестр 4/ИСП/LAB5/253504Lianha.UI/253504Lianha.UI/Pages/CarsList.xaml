@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:models="clr-namespace:_253504Lianha.UI.ViewModels"
+			 xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+			 xmlns:entities="clr-namespace:_253504Lianha.Domain.Entities;assembly=253504Lianha.Domain"
+			 xmlns:converter="clr-namespace:_253504Lianha.UI.ValueConverters"
+			 x:DataType="models:CarsListViewModel"
+			 x:Class="_253504Lianha.UI.Pages.CarsList"
+			 Title="Car list">
+	<ContentPage.Behaviors>
+		<toolkit:EventToCommandBehavior 
+			EventName="Loaded"
+			Command="{Binding UpdateCarsListCommand}"/>
+	</ContentPage.Behaviors>
+	<ContentPage.Resources>
+		<converter:CountryYearConverter x:Key="countryYearConverter"/>
+		<converter:DescriptionConverter x:Key="descriptionConverter"/>
+		<converter:PriceToColorValueConverter x:Key="priceToColorValueConverter"/>
+	</ContentPage.Resources>
+	<ContentPage.ToolbarItems>
+		<ToolbarItem  
+			IconImageSource="add_car.png"
+			Command="{Binding AddCarPageCommand}"
+			CommandParameter="{Binding Cars}"
+			/>
+		<ToolbarItem
+			IconImageSource="add_advertisement.png"
+			Command="{Binding AddAdvertisementPageCommand}"
+			CommandParameter="{Binding Cars}"
+			/>
+	</ContentPage.ToolbarItems>
+	<VerticalStackLayout>
+		<HorizontalStackLayout Spacing="7" Padding="20">
+			<Picker
+				x:Name="PickerCars"
+				ItemsSource="{Binding Cars}"
+				ItemDisplayBinding="{Binding Name}"
+				SelectedItem="{Binding SelectedCar}"
+				Title="Choose a car"
+				WidthRequest="350"
+				BackgroundColor="#333333">
+				<Picker.Behaviors>
+					<toolkit:EventToCommandBehavior 
+						EventName="SelectedIndexChanged"
+						Command="{Binding UpdateAdvertisementsListCommand}"/>
+				</Picker.Behaviors>
+			</Picker>
+			<Border StrokeShape="RoundRectangle 5,5,5,5" StrokeThickness="0">
+				<HorizontalStackLayout BackgroundColor="#333333" Padding="7,10">
+					<Label Text="{Binding SelectedCar, Converter={StaticResource countryYearConverter}}"/>
+				</HorizontalStackLayout>
+			</Border>
+
+			<Border StrokeShape="RoundRectangle 5,5,5,5" StrokeThickness="0">
+				<HorizontalStackLayout BackgroundColor="#333333" Padding="7,10">
+					<Label Text="{Binding SelectedCar, Converter={StaticResource descriptionConverter}}"/>
+				</HorizontalStackLayout>
+			</Border>
+		</HorizontalStackLayout>
+
+		<CollectionView
+			x:Name="listAdvertisements"
+			ItemsSource="{Binding Advertisements}">
+			<CollectionView.ItemTemplate>
+				<DataTemplate x:DataType="entities:Advertisement">
+					<HorizontalStackLayout Grid.ColumnSpan="3" BackgroundColor="#333333">
+						<Border             
+							Stroke="{Binding Cost, Converter={StaticResource priceToColorValueConverter}}"
+							StrokeThickness="0">
+							<Border.GestureRecognizers>
+								<TapGestureRecognizer Command="{Binding Source={RelativeSource
+													AncestorType={x:Type models:CarsListViewModel}},
+													Path=ShowDetailsCommand}"
+													CommandParameter="{Binding}"/>
+							</Border.GestureRecognizers>
+							<HorizontalStackLayout BackgroundColor="#333333" Grid.ColumnSpan="3">
+								<Image
+									HeightRequest="100"
+									Source="{Binding ImagePath}"
+									/>
+								<Label
+									BackgroundColor="#444444"
+									TextColor="#ffffff"
+									Margin="20"
+									FontSize="20"
+									FontAttributes="Bold"
+                                    Padding="12,8"
+									Text="{Binding Name}"
+									HorizontalOptions="Center"/>
+							</HorizontalStackLayout>
+						</Border>
+					</HorizontalStackLayout>
+					
+				</DataTemplate>
+			</CollectionView.ItemTemplate>
+		</CollectionView>
+	</VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="_253504Lianha.UI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:_253504Lianha.UI"
+    xmlns:pages="clr-namespace:_253504Lianha.UI.Pages"
+    Title="_253504Lianha.UI"
+    Shell.BackgroundColor="#333333">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+        Title="Cars"
+        ContentTemplate="{DataTemplate pages:CarsList}"
+        Route="Cars" />
+
+</Shell>

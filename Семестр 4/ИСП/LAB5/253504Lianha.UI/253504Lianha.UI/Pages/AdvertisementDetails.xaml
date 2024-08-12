@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:models="clr-namespace:_253504Lianha.UI.ViewModels"
+			 xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+			 xmlns:entities="clr-namespace:_253504Lianha.Domain.Entities;assembly=253504Lianha.Domain"
+			 xmlns:converter="clr-namespace:_253504Lianha.UI.ValueConverters"
+			 x:Class="_253504Lianha.UI.Pages.AdvertisementDetails"
+			 Title="Advertisement details"
+			 x:DataType="models:AdvertisementDetailsViewModel">
+	<ContentPage.ToolbarItems>
+		<ToolbarItem
+			IconImageSource="edit_advertisement.png"
+			Command="{Binding EditAdvertisementItemCommand}"
+			CommandParameter="{Binding Advertisement}"
+			/>
+		<ToolbarItem
+			IconImageSource="delete_advertisement.png"
+			Command="{Binding DeleteAdvertisementItemCommand}"
+			CommandParameter="{Binding Advertisement}"
+			/>
+	</ContentPage.ToolbarItems>
+    <ScrollView>
+        <VerticalStackLayout
+	Spacing="0">
+            <Image
+        Grid.ColumnSpan="3"
+		Source="{Binding Advertisement.ImagePath}"/>
+            <HorizontalStackLayout
+		BackgroundColor="#444444"
+		Padding="8,12">
+                <Label
+			Text="{Binding Advertisement.Name}"
+			FontSize="Small"
+			/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+		BackgroundColor="#333333"
+		Padding="8,12">
+                <Label
+			Text="{Binding Advertisement.Description}"
+			FontSize="Small"
+		/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+		BackgroundColor="#222222"
+		Padding="8,12">
+                <Label
+			Text="Price: $"
+			FontSize="Small"/>
+                <Label
+			Text="{Binding Advertisement.Cost}"
+			FontSize="Small"
+			/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+        BackgroundColor="#111111"
+		Padding="8,12">
+                <Label
+			Text="Posted: "
+			FontSize="Small"/>
+                <Label
+			Text="{Binding Advertisement.CreatedAt.Day}"
+			FontSize="Small"
+		/>
+                <Label
+			Text="."
+			FontSize="Small"
+		/>
+                <Label
+			Text="{Binding Advertisement.CreatedAt.Month}"
+			FontSize="Small"
+		/>
+                <Label
+			Text="."
+			FontSize="Small"
+		/>
+                <Label
+			Text="{Binding Advertisement.CreatedAt.Year}"
+			FontSize="Small"
+		/>
+            </HorizontalStackLayout>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>
